@@ -1,0 +1,388 @@
+
+@font-face {
+    font-family: detail;
+    src: url(./7Auwp_0qiz-afTLGLQ.ttf);
+}
+@font-face {
+    font-family: head;
+    src: url(./daaHSScvJGqLYhG8nNt8KPPswUAPniZoadlESTE.ttf);
+}
+@font-face {
+    font-family: anuja;
+    src: url(./jost-variable.ttf);
+}
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+
+html,body{
+    height:100%;
+    width:100%;
+    background-color: whitesmoke;
+    
+}
+#main{
+    width:100%;
+    overflow: hidden;
+}
+#page1{
+    width:100%;
+    height:100%;
+    position:relative;
+
+}
+#page1 #back{
+    height:131vh;
+    width:100%;
+
+
+}
+#page1 #back img{
+height:100%;
+width:100%;
+
+}
+#front {
+position: absolute;
+top:22%;
+left:10%;
+height:100%;
+width:100%;
+color:white;
+}
+#front #box{
+    width:13%;
+    height:10%;
+    border:3px solid pink;
+    position:absolute;
+    top:-1%;
+    left:-2%;
+
+
+}
+#front #heading{
+    width:28%;
+
+    display:flex;
+    flex-direction: column;
+gap:2vw;
+}
+#front #heading h1{
+    font-size: 5vw;
+    font-family: head;
+    text-transform: uppercase;
+}
+#front #heading span{
+    color:pink;
+    font-size: 9vw;
+}
+#front #heading h4{
+    font-family: details;
+    font-weight: 100;
+    font-size: 1.2vw;
+    letter-spacing: 3px;
+    line-height: 1.5;
+    
+}
+#front #btn-container{
+    margin-top: 3vw;
+}
+#front #btn-container #demo {
+    font-family: head;
+    font-size: 1vw;
+    padding:1.5vw 2vw;
+    background-color: pink;
+    color:white;
+    border-radius: 5px;
+    
+
+}
+#front #btn-container #buy{
+    font-family: details;
+    font-size: 1vw;
+    padding:1.5vw 3vw;
+    background-color: transparent;
+    color:white;
+    border:1px solid white;
+    margin-left: 15px;
+
+
+}
+#page2{
+    width:100%;
+
+    position:relative;
+    text-align: center;
+    margin-bottom: 4vw;
+
+}
+#page2 #content h1{
+    font-size: 5vw;
+    font-family: head;
+    text-transform: uppercase;
+}
+#page2 #content span{
+    color:pink;
+    font-size: 9vw;
+}
+
+#page2 #content h4{
+    font-family: anuja;
+    font-weight: 100;
+    font-size: 1.2vw;
+    letter-spacing: 3px;
+    line-height: 1.5;
+    
+}
+#image-containers{
+    margin-top: 5vw;
+    width:100%;
+    height:100%;
+    display:flex;
+
+    align-items: center;
+    justify-content: center;
+  
+}
+#image-containers #img1{
+height:80%;
+width:40%;
+
+margin-right: 3vw;
+}
+#img1 img{
+    height:100%;
+    width:100%;
+}
+#image-containers #img2{
+    height:80%;
+    width:40%;
+
+    }
+    #img2 img{
+        height:100%;
+        width:100%;
+    }
+    #page3{
+        width:100%;
+        position:relative;
+        text-align: center;
+ 
+        display:flex;
+      
+      gap:9vw;
+        padding:6vw;
+  
+  
+    }
+    #page3 #cont2 #box2{
+        width:19%;
+        height:17%;
+        border:3px solid pink;
+        position:absolute;
+        top:3%;
+        left:-2%;
+    
+    
+    }
+    #page3 #cont1{
+    
+        width:44%;
+    }
+    #page3 #cont1 img{
+        height: 100%;
+        width: 100%;
+    }
+    #page3 #cont2{
+        width:40%;
+
+        position: relative;
+        display:flex;
+        flex-direction: column;
+        gap:2vw;
+
+    }
+    #page3 #cont2  #heading3{
+
+     
+    }
+    #page3 #cont2  #head-text{
+     
+    }
+#page3 #cont2 h1{
+    font-size: 3vw;
+    font-family: head;
+    font-weight: 10;
+
+    word-spacing: -1;
+}
+#page3 #cont2 span{
+    color:pink;
+    font-size: 7.3vw;
+}
+#page3 #cont2 h3{
+    font-size: 1.25vw;
+    text-align: left;
+letter-spacing: 1.3px;
+margin-top: 3.5vw;
+    font-family: anuja;
+font-weight: 100;
+    
+}
+
+#cont2 #heading3{
+    margin-bottom: 1vw;
+    display: flex;
+flex-direction: column;
+text-align: left;
+}
+#page4{
+    width:100%;
+    position:relative;
+    text-align: center;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    gap:7vw;
+}
+#left-cont {
+    width:30%;
+    position:relative;
+}
+#left-cont #heading-left h1{
+    font-size: 3vw;
+    font-family: head;
+    font-weight: 10;
+
+    word-spacing: -1;
+
+}
+#left-cont #heading-left h1::selection
+{
+    background-color: pink;
+}
+#left-cont #heading-left span{
+    color:pink;
+    font-size: 7.3vw;
+}
+ #inside-text h3{
+    font-size: 1.25vw;
+    text-align: right;
+letter-spacing: .2px;
+margin-top: 3.5vw;
+    font-family: anuja;
+font-weight: 10;
+    
+}
+#inside-text h3::selection{
+    background-color: pink;
+}
+#left-cont #box3{
+    width:40%;
+        height:30%;
+        border:3px solid pink;
+        position:absolute;
+        top:-1.4%;
+        left:-2%;
+}
+
+
+/* //last page styling */
+/* .............................................................. */
+#lastpage{
+    width:100%;
+    height:80%;
+    position:relative;
+
+}
+#lastpage #l-back{
+    height:100vh;
+    width:100%;
+    opacity:0.5;
+
+
+}
+#lastpage #l-back img{
+height:100%;
+width:100%;
+object-fit: top;
+
+}
+#l-front {
+position: absolute;
+top:22%;
+left:15%;
+height:100%;
+width:100%;
+color:black;
+z-index: 999;
+text-align: center;
+}
+#l-front #l-box{
+    width:13%;
+    height:25%;
+    border:3px solid pink;
+    position:absolute;
+    top:1%;
+    left:2.9%;
+
+
+}
+#l-front #l-heading{
+    width:60%;
+
+    display:flex;
+    flex-direction: column;
+gap:2vw;
+}
+#l-front #l-heading h1{
+    font-size: 4vw;
+    font-family: head;
+    text-transform: uppercase;
+}
+#l-front #l-heading span{
+    color:pink;
+    font-size: 9vw;
+}
+#l-front #l-heading h4{
+    font-family: anuja;
+    font-weight: 500;
+    font-size: 1.2vw;
+    letter-spacing: 3px;
+    line-height: 1.5;
+    color:black;
+    
+}
+#l-front #l-btn-container{
+    margin-top: 3vw;
+}
+#l-front #l-btn-container #l-demo {
+    font-family: head;
+    font-size: 1vw;
+    padding:1.5vw 2vw;
+    background-color: pink;
+    color:white;
+    border-radius: 5px;
+    
+
+}
+#l-front #l-btn-container{
+    position:absolute;
+    left:15%;
+    margin-top:4vw;
+
+}
+#l-front #l-btn-container #l-buy{
+    font-family: details;
+    font-size: 1vw;
+    padding:1.5vw 3vw;
+    background-color: transparent;
+    color:black;
+    border:1px solid black;
+    margin-left: 15px;
+
+
+}
